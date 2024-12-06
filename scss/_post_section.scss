@@ -1,0 +1,60 @@
+.post-section {
+    
+    .inner-container {
+        max-width: 1150px;
+        margin: auto;
+    }
+    .post-wrap {
+        background: #111111;
+
+    .post-wrap-inner {
+        background: #222222;
+        @include media-breakpoint-down(md) {
+            background: transparent;
+            padding: 0 !important;
+        }
+        .post {
+            @include media-breakpoint-down(md) {
+                width: 100%;
+                border-bottom: 1px solid #2C2C2C;
+                padding-bottom: 30px;
+            }
+            a {
+                font-size: 14px !important;
+            }
+        }
+        .icon-frame {
+            background-color: rgba(255, 255, 255, 0.09);
+        }
+        .post-content  {
+            span {
+            color: #737373;
+
+        }
+    }
+    .user-list-wrap {
+        .feedback-people-text {
+            @include media-breakpoint-down(md) {
+            width: calc(100% - 25px);
+            }
+        }
+    .user-list {
+        li:not(:first-child) {
+            margin-left: -15px;
+        }
+    }
+}
+    
+}
+}
+.post-action-block {
+    background: #111111;
+    p {
+        color: #737373;
+        max-width: 60%;
+        @include media-breakpoint-down(lg) {
+            max-width: 100%;
+        }
+    }
+}
+}

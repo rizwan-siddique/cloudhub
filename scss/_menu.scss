@@ -1,0 +1,43 @@
+// for desktop
+.login-link {
+    @include media-breakpoint-down(lg) {
+        font-size:16px !important;
+    }
+    &:hover {
+        color:$primary !important;
+    }
+}
+.navbar-expand-lg .offcanvas {
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+    }
+}
+
+// for mobile
+.mobile-menu {
+    .btn-close {
+        @include media-breakpoint-down(lg) { 
+            right: 20px;
+            top: 20px;
+        }
+    }
+
+    .dropdown-menu {
+        @include media-breakpoint-down(lg) {
+            border-radius: 7px;
+            background: #f7f7f7;
+            margin-left: 10px;
+            
+        }
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .dropdown-toggle:hover , .dropdown-toggle:active , .dropdown-toggle:focus 
+        { 
+        svg path {
+            stroke: $primary !important;
+        }
+    }
+    
+}

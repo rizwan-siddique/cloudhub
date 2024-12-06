@@ -1,0 +1,37 @@
+$font-family-base : "Inter", serif;
+$primary : #FB432C;
+$secondary: #282828;
+$body-color:#282828;
+$navbar-light-color: #282828;
+$navbar-light-hover-color:#FB432C;
+$navbar-light-active-color: #FB432C;
+$navbar-light-icon-color: #FB432C;
+$dropdown-link-active-bg : #FB432C;
+$headings-color: #282828;
+$paragraph_color1:#5F5F5F;
+$navbar-toggler-padding-y: 0;
+$navbar-toggler-padding-x: 0;
+$navbar-toggler-border-radius:0;
+$navbar-toggler-focus-width:0;
+$dropdown-font-size: 14px;
+$nav-link-font-size : 14px;
+$font-size-base : 1rem;
+$h1-font-size:$font-size-base * 5.2;
+$h2-font-size:$font-size-base * 3.3;
+$h3-font-size:$font-size-base * 1.63;
+// $h4-font-size:$font-size-base * 1.5;
+$h5-font-size:$font-size-base * 1.25;
+$h6-font-size:$font-size-base;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./menu";
+@import "./hero_banner";
+@import "./clients";
+@import "./generic_content";
+@import "./post_section";
+@import "./progress_section";
+@import "./testimonials";
+@import "./designer_logo";
+@import "./working-together";
+@import "./team-management";

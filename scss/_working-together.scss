@@ -1,0 +1,12 @@
+.working-together {
+    p {
+        max-width: 33%;
+        margin: 0 auto;
+        @include media-breakpoint-down(xl)  {
+            max-width:60% ;
+        }
+        @include media-breakpoint-down(xl)  {
+            max-width:100% ;
+        }
+    }
+}

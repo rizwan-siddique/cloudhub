@@ -1,0 +1,14 @@
+.generic-content {
+    p {
+        font-size: 18px;
+        color: #5F6980;
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+        }
+    }
+    .btn {
+        @include media-breakpoint-down(md) {
+            font-size: 14px !important;
+        }
+    }
+}
